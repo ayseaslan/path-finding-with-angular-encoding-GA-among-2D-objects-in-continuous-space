@@ -269,7 +269,7 @@ int main() {
 
     // the input file contains the lower and upper ends of the rectangular objects, and the centroid coordinates
     stringstream name;
-    name << "New_Best_Sols_LIN_1.txt"; // read frequencies from data file 
+    name << "coordinates.txt"; 
     string na = name.str();
     ifstream infile(na.c_str());
 
